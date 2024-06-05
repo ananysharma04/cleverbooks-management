@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: rgb(rgb(0, 38, 255), green, blue)
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #007BFF;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.header .nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.problems-solved, .key-metrics, .reviews, .problem-target, .cta, .footer {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.key-metrics .metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: rgb(rgb(0, 38, 255), green, blue);
+}
+
+.key-metrics .metric {
+    margin: 20px;
+    text-align: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tab-button:hover {
+    background: #0056b3;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content h3 {
+    margin-top: 0;
+}
+
+.cta {
+    background: #28a745;
+    color: white;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+.footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer address {
+    font-style: normal;
+    color: #bdc3c7;
+}
+
+footer p {
+    margin: 0;
+}
